@@ -34,7 +34,7 @@
             "showButtons": false,
             "sticky": true,
             "collapsed": true,
-            "transparent": false,
+            "transparent": true,
             "color": "#37383e",
             "hamburgerColor": "#000000"
           },
@@ -74,10 +74,10 @@
             "showButtons": false,
             "showArrow": true,
             "contentAlign": "center",
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-847x1080.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#f8f8f6",
             "bgVideoRadio": false,
             "bgVideo": {

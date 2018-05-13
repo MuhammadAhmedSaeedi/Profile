@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-05-07_2125",
+    "name": "Portfolio",
     "currentPage": "index.html",
     "theme": {
       "name": "purity",
@@ -12,9 +12,12 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 3,
+    "uniqCompNum": 6,
     "versionPublish": "4.7.2",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/muhammadahmedsaeedi-128x128-1.png",
+    "noImageResize": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
@@ -43,7 +46,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "https://mobirise.com"
@@ -104,25 +107,24 @@
         },
         {
           "_params": {
+            "showTitle": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#37383e",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact Us</a>",
-          "text1": "",
-          "text2": "<p><b>Contact Us:</b></p><p><br></p>",
+          "title": "Contact Form",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-secondary-outline\">Contact Us</a>",
           "form": {
-            "title": "MESSAGE",
             "action": "saeedi_786@outlook.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks for reaching out!"
             },
             "fields": {
               "name": {
@@ -136,7 +138,7 @@
                 "customTitle": "Email*"
               },
               "phone": {
-                "visible": false,
+                "visible": true,
                 "title": "Phone",
                 "customTitle": "Phone"
               },
@@ -150,8 +152,14 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-2"
+          "_name": "form1",
+          "_anchor": "form1-4",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            }
+          }
         }
       ]
     }
